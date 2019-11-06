@@ -1,0 +1,40 @@
+ul.scroll-fade {
+  width: 100vw;
+  text-align: center;
+  margin: 0;
+  padding-inline-start: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.scroll-fade li {
+  list-style: none;
+  background-color: #FFF;
+  margin: 1em;
+  display: block;
+  max-width: 500px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+ul.scroll-fade li a {
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 2em;
+  color: #16121C;
+}
+
+ul.scroll-fade li a span {
+  display: block;
+  font-size: 0.5em;
+  padding-top: 0.5em;
+  font-weight: 600;
+  color: #6D5FC6;
+}
